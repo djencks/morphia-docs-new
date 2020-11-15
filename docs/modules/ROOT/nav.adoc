@@ -1,1 +1,4 @@
-* xref:index.adoc[Welcome]
+* xref:index.adoc[Getting Started]
+* xref:quicktour.adoc[Quick Tour]
+* xref:reference.adoc[Reference]
+* xref:issues-help.adoc[Issues & Support]

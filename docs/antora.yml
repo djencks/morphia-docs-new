@@ -1,5 +1,16 @@
 name: morphia
 title: Morphia
-version: dev
+version: 2.2.0
+prerelease: -SNAPSHOT
 nav:
 - modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    branch: master
+    groupId: dev.morphia
+    artifactId: morphia-core
+    version: 2.2.0-SNAPSHOT
+    apiRef: https://morphia.dev/morphia/2.2.0-SNAPSHOT/javadoc
+    docsRef: http://docs.mongodb.org/manual
+    srcRef: https://github.com/MorphiaOrg/morphia/blob/master
+
