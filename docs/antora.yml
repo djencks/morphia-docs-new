@@ -7,10 +7,6 @@ prerelease: -SNAPSHOT
 nav:
 - modules/ROOT/nav.adoc
 
-javadoc:
-  sources:
-    - url: https://oss.sonatype.org/content/repositories/snapshots/dev/morphia/morphia/morphia-core/2.2.0-SNAPSHOT/morphia-core-2.2.0-20201118.035313-3-javadoc.jar
-
 asciidoc:
   attributes:
     branch: master
@@ -21,3 +17,7 @@ asciidoc:
     docsRef: http://docs.mongodb.org/manual
     srcRef: https://github.com/MorphiaOrg/morphia/blob/master
 
+javadoc:
+  sources:
+    - url: https://oss.sonatype.org/content/repositories/snapshots/dev/morphia/morphia/morphia-core/2.2.0-SNAPSHOT/morphia-core-2.2.0-20201118.035313-3-javadoc.jar
+      module: javadoc
