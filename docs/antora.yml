@@ -1,9 +1,16 @@
 name: morphia
 title: Morphia
-version: 2.2.0
+display_version: 2.2.0-SNAPSHOT
+version: 2.2.0-SNAPSHOT
 prerelease: -SNAPSHOT
+
 nav:
 - modules/ROOT/nav.adoc
+
+javadoc:
+  sources:
+    - url: https://oss.sonatype.org/content/repositories/snapshots/dev/morphia/morphia/morphia-core/2.2.0-SNAPSHOT/morphia-core-2.2.0-20201118.035313-3-javadoc.jar
+
 asciidoc:
   attributes:
     branch: master
